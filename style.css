@@ -1,0 +1,292 @@
+/* global style  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-left: 1em;
+    font-size: 1rem;
+    text-indent: -.7em;
+}
+
+li:before {
+    content: "• ";
+    color: #837c9a;
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+h1 {
+    color: black;
+    font-size: 2rem;
+}
+
+h4 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ff7948;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+h6 {
+    color: black;
+    line-height: 2.1rem;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #5b5e66;
+    margin-bottom: 1.1rem;
+}
+
+a {
+    color: #5b5e66;
+    font-size: 1rem;
+}
+
+body {
+    font-size: 0.8rem;
+    line-height: 1.37rem;
+}
+
+
+/* .main-container */
+
+.main-container {
+    width: 84rem;
+    margin: 5rem;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+    background: #efefef;
+}
+
+.main-container .main-header {
+    width: 90rem;
+    margin: 0 4rem;
+}
+
+.main-container .main-header .logo-img {
+    height: 178px;
+}
+
+.main-container .main-header .logo-img img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10rem;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+    margin: 2rem 0rem 0rem 4.2rem;
+}
+
+.main-container .main-header .logo-name {
+    padding: 27px 0px;
+    width: 301px;
+    background-color: #ff7948;
+    border-radius: 1rem;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+    height: 149px;
+}
+
+.main-container .main-header .logo-name h1 {
+    text-align: center;
+}
+
+.main-container .main-header .logo-name h5 {
+    letter-spacing: 0.1rem;
+    margin-top: 1.5rem;
+    margin: 2rem;
+}
+
+.main-container .main-header .sub-heading {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+
+.main-details {
+    margin-top: 11.4rem;
+}
+
+
+/* contact sectiion */
+
+.contact {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+/* social section  */
+
+.socialmedia p {
+    display: inline-block;
+    margin-left: 1.4rem;
+}
+
+
+/* profile section  */
+
+.profile .profile-heading {
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 25px 0;
+    padding-left: 20px;
+    border-left: 2px solid #ff7948;
+}
+
+blockquote p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+    max-width: 41rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.profile_quote {
+    position: relative;
+}
+
+.profile_quote .entypo-quote {
+    color: #3d3a41;
+    font-size: 80px;
+    margin-right: 20rem;
+    font-style: normal;
+    cursor: default;
+    opacity: 0.1;
+    position: absolute;
+    top: 0.3rem;
+    right: -9rem;
+}
+
+.entypo-quote::before {
+    content: "\275e";
+}
+
+
+/* aboutme section  */
+
+.aboutme-subheading {
+    margin-top: 1.4rem;
+    font-size: 1rem;
+    max-width: 53rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.horizontal-line {
+    border-style: dotted;
+    border-top-style: dotted;
+    border-top: 0rem;
+    width: 5rem;
+    transform: translate(24rem, 1rem);
+    -webkit-transform: translate(24rem, 1rem);
+    -moz-transform: translate(24rem, 1rem);
+    -ms-transform: translate(24rem, 1rem);
+    -o-transform: translate(24rem, 1rem);
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    margin-bottom: 3.5rem;
+}
+
+
+/* .philosophy section  */
+
+.philosophy_content {
+    width: 100%;
+}
+
+.philosophy_content .philosophy_content_subheading {
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.philosophy_content .philosophy_content_subheading2 {
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    width: 68%;
+    float: left;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.philosophy_content ul {
+    float: left;
+    padding-left: 3.37rem;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+}
+
+
+/* skills section  */
+
+.skills_content {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+/* work section  */
+
+.work_content {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.work-subheading {
+    font-size: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 3rem;
+}
+
+
+/* hobbies section */
+
+.interests_content {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.interests-subheading {
+    font-size: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 3rem;
+}
